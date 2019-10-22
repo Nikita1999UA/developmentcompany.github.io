@@ -1,15 +1,63 @@
 @media (max-width: 768px) {
+    .container{
+        max-width: 95%;
+
+    }
     .about__left_one{
-        font-size: 14px;
+        font-size: 10px;
     }
     .line__circle{
-        font-size: 14px;
+        font-size: 10px;
     }
     .about__right_text{
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .about__left_text{
-        font-size: 14px;
+        font-size: 10px;
     }
+
+    .about__right img{
+        height: 25px;
+    }
+
+    .about__left_text--five{
+        margin-bottom: 20px;
+        margin-top: 65px;
+    }
+
+    .about__right_img{
+        margin-bottom: 85px;
+    }
+
+    .about__right_text--year {
+        height: 20px;
+    }
+    .about__right_text--ceo{
+        margin-bottom: 30px;
+    }
+    .about__right_img--four {
+        padding-top: 60px;
+    }
+
+    .about__right_text--nine{
+        height: 85px;
+    }
+
+    .about__right_img--four{
+        margin-bottom: 30px;
+    }
+
+    .about__right_text--school{
+        padding-top: 10px;
+        margin-bottom: 15px
+    }
+
+    .about__right_text--ten{
+        height: 55px;
+    }
+/* 
+    .about__left_img--four{
+        padding-bottom: 60px;
+    } */
 }

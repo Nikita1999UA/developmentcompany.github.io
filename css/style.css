@@ -1,5 +1,5 @@
 
-ul{
+/* ul{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -50,14 +50,23 @@ ul{
 #breadcrumbs-two .current::after,
 #breadcrumbs-two .current::before{
     content: normal;
-}
+} */
 
 .container{
     width: 100%;
     max-width: 60%;
+    display: flex;
+
     margin: 0 auto;
 }
 
+.about__left{
+    width: 50%;
+}
+
+.about__right{
+    width: 50%;
+}
 
 .about__title{
     margin-top: 80px;
@@ -444,23 +453,6 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .about__left img{
     height: 50px;
 }
@@ -469,7 +461,24 @@ ul{
     height: 50px;
 }
 
-.
+.about__left_text--lider img{
+    height: 25px;
+    margin-right: 10px;
+}
+.about__right_text--year img{
+    height: 25px;
+    margin-right: 10px;
+}
+
+.about__right_text--school img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.about__right_text--ceo img{
+    height: 25px;
+    margin-right: 10px;
+}
 
 
 
