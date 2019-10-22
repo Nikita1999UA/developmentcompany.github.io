@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .about__left_one{
+        font-size: 14px;
+    }
+    .line__circle{
+        font-size: 14px;
+    }
+    .about__right_text{
+        font-size: 14px;
+    }
+
+    .about__left_text{
+        font-size: 14px;
+    }
+}
