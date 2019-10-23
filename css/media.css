@@ -77,8 +77,19 @@
         font-size: 10px;
     }
 
+    .about__itemer{
+        justify-content: center;
+        min-width: 20%;
+    }
+
+    .about__itemer p {
+        font-size: 10px;
+    }
+
+
     .about__item{
         justify-content: center;
+        min-width: 20%;
     }
     
     .about__item--one{
