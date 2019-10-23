@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     .container{
-        max-width: 95%;
+        max-width: 100%;
 
     }
     .about__left_one{
@@ -60,4 +60,52 @@
     .about__left_img--four{
         padding-bottom: 60px;
     } */
+
+    .about__container{
+        max-width: 95%;
+    }
+
+    .about__item_img{
+        height: 40px;
+    }
+
+    .about__item_ceresit{
+        height: 20px;
+    }
+
+    .about__item p{
+        font-size: 10px;
+    }
+
+    .about__item{
+        justify-content: center;
+    }
+    
+    .about__item--one{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about__item--three{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about__item--four{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about__item--six{
+        display: flex;
+        justify-content: center;
+        text-align: right;
+    }
+    
+
+    .about__item_text{
+        min-width: 120px;
+        width: 100%;
+    }
+    
 }
